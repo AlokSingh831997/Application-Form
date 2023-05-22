@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ccc;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.apply_box {
+    width: 600px;
+    padding: 20px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 7px 7px 4px rgba(19, 16, 16, 0.878);
+    border-radius: 10px;
+}
+
+.title_small_container {
+    font-size: 25px;
+}
+
+.form_container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+
+}
+
+label {
+    margin-bottom: 2px;
+}
+
+input,
+select {
+    padding: 10px 15px 10px;
+    border: 2px solid rgba(176, 184, 21, 0.699);
+    border-radius: 6px;
+    /* font-size: 15px; */
+}
+
+select,
+input:focus {
+    outline-color: rgba(47, 47, 197, 0.537);
+}
+
+.button_container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+}
+
+button {
+    background-color: red;
+    border: 2px solid transparent;
+    border-radius: 7px;
+    padding: 7px 12px;
+    color: white;
+    /* transition: 0.3s ease-in; */
+}
+
+button:hover {
+    background-color: #ccc;
+    border: 2px solid red;
+    color: black;
+    /* transition: 0.3s ease-out; */
+    cursor: pointer;
+}
